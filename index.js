@@ -8,8 +8,23 @@ start()
 
 async function start() {
   while (true) {
-    await spam()
+    await spamTen()
   }
+}
+
+function spamTen () {
+  return Promise.all([
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+    spam(),
+  ])
 }
 
 async function spam () {
