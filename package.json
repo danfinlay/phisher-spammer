@@ -1,0 +1,17 @@
+{
+  "name": "spam-phisher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eth-hd-keyring": "^1.2.2",
+    "ethereumjs-wallet": "^0.6.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
